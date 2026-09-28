@@ -1,0 +1,6 @@
+numpy
+pyyaml
+onnxruntime
+adafruit-servokit
+adafruit-circuitpython-pca9685
+RPi.GPIO
