@@ -3,4 +3,4 @@ __pycache__/
 *.onnx
 venv/
 *.log
-models/*.onnx
+# models/*.onnx  (tracked for Pi testing)

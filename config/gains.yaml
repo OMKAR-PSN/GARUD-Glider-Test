@@ -62,8 +62,8 @@ telemetry:
 
 # 10. RL Policy
 rl:
-  onnx_model_path: models/sac_policy_17D.onnx   # retrain required — 17D obs after 2026-09-25 update
-  obs_dim: 17
+  onnx_model_path: models/sac_policy_16D.onnx
+  obs_dim: 16
   action_dim: 2
   inference_timeout_ms: 5        # Watchdog: fallback if single inference exceeds this
 
